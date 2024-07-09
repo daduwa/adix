@@ -4,7 +4,7 @@ function NavigationBar() {
   return (
     <div className="w-full px-20 py-8 font-['Neue_Montreal'] flex justify-between items-center fixed z-[999]">
         <div className='logo'>
-            <h1 className='font-bold italic'>ADIX<span className='text-cyan-400'> . beta version</span></h1>
+            <h1 className='font-bold italic'>ADIX<span className='text-cyan-400'> . beta</span></h1>
         </div>
         <div className='links flex gap-10'>
             {["About", "portfolio","services", "skills","contact"].map((item,index)=>(
