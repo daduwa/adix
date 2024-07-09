@@ -1,16 +1,20 @@
 {
-  "homepage": "https://daduwa.github.io/adix",
+  "homepage": "https://daduwa.github.io/adix-react-app",
   "name": "adix",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "start": "react-scripts start",
     "dev": "vite",
     "build": "vite build",
+    "test": "react-scripts test",
+    "eject":"react-scripts eject",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "preview": "vite preview"
+    
   },
   "dependencies": {
     "framer-motion": "^11.2.13",
